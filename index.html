@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tejus Samir - Electrical Engineer</title>
+    <meta
+      name="description"
+      content="Engineering portfolio of Tejus Samir"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ====================================================================
+         Header
+         ==================================================================== -->
+    <header class="site-header">
+      <div class="wrap">
+        <nav class="site-nav">
+          <a class="nav-link" href="#hero">Home</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-cta" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ====================================================================
+         Home view
+         ==================================================================== -->
+    <main class="home-view">
+      <!-- Hero -->
+      <section class="hero wrap" id="hero">
+        <canvas id="bg-canvas" aria-hidden="true"></canvas>
+        <div class="hero-inner">
+          <h1 class="hero-name">Tejus Samir</h1>
+          <p class="hero-role">Electrical Engineering</p>
+
+          <p class="hero-blurb">
+            <span class="type-line">
+              <!-- Invisible sizer: keep this text as long as the longest phrase in
+                   data-phrases so the buttons below don't move while typing. -->
+              <span class="type-sizer" aria-hidden="true"
+                >Interested in embedded systems and PCB design</span
+              >
+              <span class="type-anim">
+                <span
+                  class="typewriter"
+                  data-phrases='["Electrical Engineering @ Texas A&amp;M University","Interested in embedded systems and PCB design"]'
+                  >Electrical Engineering @ Texas A&amp;M University</span
+                ><span class="type-caret" aria-hidden="true"></span>
+              </span>
+            </span>
+          </p>
+
+          <div class="hero-actions">
+            <a class="icon-link" href="mailto:tejus.samir@gmail.com" aria-label="Email" title="Email">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+            </a>
+
+            <a class="icon-link" href="https://www.linkedin.com/in/tejussamir/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+            </a>
+
+            <a class="icon-link" href="assets/tejus-samir-resume.pdf" download="Tejus Samir Resume.pdf" aria-label="Resume" title="Resume">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <polyline points="14 2 14 8 20 8" />
+                <line x1="9" y1="13" x2="15" y2="13" />
+                <line x1="9" y1="17" x2="15" y2="17" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="rule" />
+
+      <!-- Projects -->
+      <section class="projects wrap" id="projects">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Selected Work</p>
+            <h2 class="section-title">Recent Projects</h2>
+          </div>
+        </div>
+
+        <div class="project-list">
+          <article class="project-row">
+            <div class="project-body">
+              <h3 class="project-title">FreshPal Smart Sensor</h3>
+              <p class="project-tagline">Custom PCB that detects food spoilage by sensing ammonia</p>
+              <div class="tag-row">
+                <span class="tag">PCB Design</span>
+                <span class="tag">Embedded / IoT</span>
+                <span class="tag">Altium</span>
+                <span class="tag">C++</span>
+                <span class="tag tag--award">3rd place · DECA Internationals</span>
+              </div>
+            </div>
+            <div class="project-aside">
+              <a class="btn-outline" href="#freshpal">See more →</a>
+            </div>
+          </article>
+
+          <article class="project-row">
+            <div class="project-body">
+              <h3 class="project-title">Counterfeit Semiconductor Detection</h3>
+              <p class="project-tagline">Counterfeit semiconductor detection using DAC linearity signatures (DNL/INL)</p>
+              <div class="tag-row">
+                <span class="tag">Test &amp; Validation</span>
+                <span class="tag">Statistical Modeling</span>
+                <span class="tag tag--award">1st place · Aggies Invent · $5,000</span>
+              </div>
+            </div>
+            <div class="project-aside">
+              <a class="btn-outline" href="#counterfeit">See more →</a>
+            </div>
+          </article>
+
+          <article class="project-row">
+            <div class="project-body">
+              <h3 class="project-title">Audio Signal Conditioning Amplifier</h3>
+              <p class="project-tagline">Inverting op-amp stage with an active anti-aliasing filter</p>
+              <div class="tag-row">
+                <span class="tag">Analog Design</span>
+                <span class="tag">PCB Design</span>
+                <span class="tag">Altium</span>
+              </div>
+            </div>
+            <div class="project-aside">
+              <a class="btn-outline" href="#audio-amp">See more →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Extracurriculars + contact -->
+      <section class="contact" id="contact">
+        <div class="wrap">
+          <div>
+            <p class="eyebrow">Extracurriculars</p>
+
+            <div class="activity">
+              <div>
+                <p class="activity-role">Ignitors Rocketry Team</p>
+                <p class="activity-org">Electronics Mentee</p>
+                <p class="activity-desc">
+                  Training in rocket avionics and embedded systems: microcontrollers, sensors, and
+                  UART / I2C / SPI. Utilized Altium Designer for PCB design and OpenRocket for flight
+                  simulation, and contributed to the build and successful launch of a team rocket.
+                </p>
+              </div>
+              <span class="activity-period">2026</span>
+            </div>
+
+            <div class="activity">
+              <div>
+                <p class="activity-role">IEEE</p>
+                <p class="activity-org">Institute of Electrical and Electronics Engineers</p>
+                <p class="activity-desc">
+                  Member of the Texas A&amp;M student branch.
+                </p>
+              </div>
+              <span class="activity-period">2025 — Present</span>
+            </div>
+          </div>
+
+          <div class="contact-list">
+            <a class="contact-item" href="assets/tejus-samir-resume.pdf" download="Tejus Samir Resume.pdf">
+              <span class="contact-label">Resume</span>
+              <span class="contact-value">Download PDF →</span>
+            </a>
+            <a class="contact-item" href="https://www.linkedin.com/in/tejussamir/" target="_blank" rel="noopener">
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">linkedin.com/in/tejussamir →</span>
+            </a>
+            <a class="contact-item" href="https://github.com/tejussamir" target="_blank" rel="noopener">
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">github.com/tejussamir →</span>
+            </a>
+            <a class="contact-item" href="mailto:tejus.samir@gmail.com">
+              <span class="contact-label">Email · Personal</span>
+              <span class="contact-value">tejus.samir@gmail.com →</span>
+            </a>
+            <a class="contact-item" href="mailto:tejussamir@tamu.edu">
+              <span class="contact-label">Email · Texas A&amp;M</span>
+              <span class="contact-value">tejussamir@tamu.edu →</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer wrap">
+        <p>© 2026 Tejus Samir</p>
+      </footer>
+    </main>
+
+    <!-- ====================================================================
+         Project detail views
+         ==================================================================== -->
+
+    <!-- 01 — FreshPal Smart Sensor -->
+    <article class="project-page" id="freshpal">
+      <div class="detail-hero">
+        <div class="detail-hero-text wrap">
+          <a class="back-link" href="#projects">← All projects</a>
+          <h1 class="detail-title">FreshPal Smart Sensor</h1>
+        </div>
+      </div>
+
+      <div class="detail-body wrap">
+        <div>
+          <p class="detail-summary">
+            Custom 2-layer PCB that pairs an ESP32 with an I2C temperature/humidity sensor and a
+            Winsen GM-802B MEMS ammonia (NH₃) sensor to catch food spoilage in resturaunt refrigerators.
+          </p>
+
+          <figure class="detail-figure">
+            <img src="assets/freshpal-board.png" alt="3D render of the FreshPal 2-layer PCB" loading="lazy" />
+            <figcaption>Board render — v1 layout</figcaption>
+          </figure>
+        </div>
+
+        <aside>
+          <div class="meta-item">
+            <p class="meta-label">Year</p>
+            <p class="meta-value">2023 — 2025</p>
+          </div>
+          <div class="meta-item">
+            <p class="meta-label">Role</p>
+            <p class="meta-value">PCB design, analog front end, and firmware</p>
+          </div>
+          <div class="meta-item meta-item--stack">
+            <p class="meta-label">Stack</p>
+            <div class="stack-row">
+              <span class="chip">Altium Designer</span>
+              <span class="chip">ESP32</span>
+              <span class="chip">Arduino / C++</span>
+              <span class="chip">I2C</span>
+              <span class="chip">Wi-Fi</span>
+              <span class="chip">GM-802B NH₃</span>
+            </div>
+          </div>
+          <div class="meta-item meta-item--links">
+            <p class="meta-label">Links</p>
+            <div class="link-list">
+              <a href="https://github.com/tejussamir/FreshPal" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <nav class="detail-nav">
+        <div class="wrap">
+          <a class="prev" href="#audio-amp">
+            <span class="nav-dir">← Previous</span>
+            <span class="nav-name">Audio Signal Conditioning Amplifier</span>
+          </a>
+          <a class="next" href="#counterfeit">
+            <span class="nav-dir">Next →</span>
+            <span class="nav-name">Counterfeit Semiconductor Detection</span>
+          </a>
+        </div>
+      </nav>
+    </article>
+
+    <!-- 02 — Audio Signal Conditioning Amplifier -->
+    <article class="project-page" id="audio-amp">
+      <div class="detail-hero">
+        <div class="detail-hero-text wrap">
+          <a class="back-link" href="#projects">← All projects</a>
+          <h1 class="detail-title">Audio Signal Conditioning Amplifier</h1>
+        </div>
+      </div>
+
+      <div class="detail-body wrap">
+        <div>
+          <p class="detail-summary">
+            An inverting op-amp signal-conditioning amplifier, designed and simulated in Texas
+            Instruments' TINA-TI software, then laid out as a physical PCB in Altium Designer.
+          </p>
+
+          <div class="detail-prose">
+            <p>
+              I sized the feedback network to set a passband gain of 23.28 dB (≈14.6 V/V) and
+              simulated the response in TINA-TI to verify gain and behavior across the audio band.
+            </p>
+            <p>
+              The design integrates an active low-pass anti-aliasing filter stage with a cutoff
+              near 1.06 kHz, band-limiting the signal ahead of a downstream analog-to-digital
+              converter.
+            </p>
+            <p>
+              The simulated schematic was then translated into a PCB layout in Altium Designer,
+              turning the verified design into a manufacturable board.
+            </p>
+          </div>
+
+        </div>
+
+        <aside>
+          <div class="meta-item">
+            <p class="meta-label">Year</p>
+            <p class="meta-value">2026</p>
+          </div>
+          <div class="meta-item">
+            <p class="meta-label">Role</p>
+            <p class="meta-value">Analog design, simulation, and PCB layout</p>
+          </div>
+          <div class="meta-item meta-item--stack">
+            <p class="meta-label">Stack</p>
+            <div class="stack-row">
+              <span class="chip">TINA-TI</span>
+              <span class="chip">Altium Designer</span>
+              <span class="chip">Op-amp design</span>
+              <span class="chip">Active filters</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <nav class="detail-nav">
+        <div class="wrap">
+          <a class="prev" href="#counterfeit">
+            <span class="nav-dir">← Previous</span>
+            <span class="nav-name">Counterfeit Semiconductor Detection</span>
+          </a>
+          <a class="next" href="#freshpal">
+            <span class="nav-dir">Next →</span>
+            <span class="nav-name">FreshPal Smart Sensor</span>
+          </a>
+        </div>
+      </nav>
+    </article>
+
+    <!-- 03 — Counterfeit Semiconductor Detection -->
+    <article class="project-page" id="counterfeit">
+      <div class="detail-hero">
+        <div class="detail-hero-text wrap">
+          <a class="back-link" href="#projects">← All projects</a>
+          <h1 class="detail-title">Counterfeit Semiconductor Detection</h1>
+        </div>
+      </div>
+
+      <div class="detail-body wrap">
+        <div>
+          <p class="detail-summary">
+            A software approach to authenticating semiconductors by fingerprinting each chip from
+            its DAC linearity test data.
+          </p>
+
+          <div class="detail-prose">
+            <p>
+              The method uses DAC Differential Nonlinearity (DNL) and Integral Nonlinearity (INL)
+              measurements as a chip-level “fingerprint.” These signatures come from each chip's
+              hyper-specific manufacturing process, and are plotted during the semiconductor testing phase.
+            </p>
+            <p>
+              I applied statistical control charts to these linearity signatures, validating the
+              approach against known authentic and counterfeit samples to set reliable detection
+              limits.
+            </p>
+            <p>
+              The classifier distinguished genuine parts from counterfeits with 98.7% accuracy. I
+              presented it to a panel of industry judges to win 1st place and the $5,000 grand
+              prize at Aggies Invent: Hardware Resilience.
+            </p>
+          </div>
+
+        </div>
+
+        <aside>
+          <div class="meta-item">
+            <p class="meta-label">Year</p>
+            <p class="meta-value">2026</p>
+          </div>
+          <div class="meta-item">
+            <p class="meta-label">Role</p>
+            <p class="meta-value">Statistical modeling, validation, and presentation</p>
+          </div>
+          <div class="meta-item meta-item--stack">
+            <p class="meta-label">Stack</p>
+            <div class="stack-row">
+              <span class="chip">Control charts</span>
+              <span class="chip">DNL / INL analysis</span>
+              <span class="chip">Semiconductor test data</span>
+              <span class="chip">Statistical modeling</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <nav class="detail-nav">
+        <div class="wrap">
+          <a class="prev" href="#freshpal">
+            <span class="nav-dir">← Previous</span>
+            <span class="nav-name">FreshPal Smart Sensor</span>
+          </a>
+          <a class="next" href="#audio-amp">
+            <span class="nav-dir">Next →</span>
+            <span class="nav-name">Audio Signal Conditioning Amplifier</span>
+          </a>
+        </div>
+      </nav>
+    </article>
+
+    <script>
+      (function () {
+        var el = document.querySelector('.typewriter');
+        if (!el) return;
+
+        var phrases;
+        try {
+          phrases = JSON.parse(el.getAttribute('data-phrases'));
+        } catch (e) {
+          return;
+        }
+        if (!phrases || !phrases.length) return;
+
+        var reduce =
+          window.matchMedia &&
+          window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (reduce) {
+          el.textContent = phrases[0];
+          return;
+        }
+
+        var TYPE = 55;
+        var ERASE = 30;
+        var HOLD_FULL = 1800;
+        var HOLD_EMPTY = 400;
+
+        var phraseIndex = 0;
+        var charIndex = phrases[0].length;
+        var deleting = false;
+
+        function tick() {
+          var current = phrases[phraseIndex];
+
+          if (!deleting) {
+            charIndex++;
+            el.textContent = current.slice(0, charIndex);
+            if (charIndex >= current.length) {
+              deleting = true;
+              return setTimeout(tick, HOLD_FULL);
+            }
+            return setTimeout(tick, TYPE);
+          }
+
+          charIndex--;
+          el.textContent = current.slice(0, charIndex);
+          if (charIndex <= 0) {
+            deleting = false;
+            phraseIndex = (phraseIndex + 1) % phrases.length;
+            return setTimeout(tick, HOLD_EMPTY);
+          }
+          return setTimeout(tick, ERASE);
+        }
+
+        setTimeout(tick, HOLD_FULL);
+      })();
+    </script>
+
+    <!-- Interactive constellation background -->
+    <script>
+      (function () {
+        var canvas = document.getElementById('bg-canvas');
+        if (!canvas) return;
+        var ctx = canvas.getContext('2d');
+        if (!ctx) return;
+
+        var host = canvas.parentElement; // .hero — the section the field lives in
+
+        var reduce =
+          window.matchMedia &&
+          window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        var DOT = 'rgba(200, 169, 110, 0.4)'; // accent
+        var LINK = '122, 118, 105'; // muted, rgb only
+        var MOUSE_LINK = '200, 169, 110';
+        var BG = '12, 12, 11'; // page background, for the cursor spotlight
+        var LINK_DIST = 150;
+        var MOUSE_DIST = 340;
+
+        var w, h, dpr, particles, raf, running;
+        var mouse = { x: -9999, y: -9999 };
+        var small = false;
+
+        function particleCount() {
+          var target = Math.round((w * h) / 13000);
+          return Math.max(30, Math.min(small ? 55 : 150, target));
+        }
+
+        function build() {
+          dpr = Math.min(window.devicePixelRatio || 1, 2);
+          w = host.clientWidth;
+          h = host.clientHeight;
+          small = w < 800;
+          canvas.width = w * dpr;
+          canvas.height = h * dpr;
+          canvas.style.width = w + 'px';
+          canvas.style.height = h + 'px';
+          ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+          var n = particleCount();
+          particles = [];
+          for (var i = 0; i < n; i++) {
+            particles.push({
+              x: Math.random() * w,
+              y: Math.random() * h,
+              vx: (Math.random() * 0.4 + 0.08) * (Math.random() < 0.5 ? -1 : 1),
+              vy: (Math.random() * 0.4 + 0.08) * (Math.random() < 0.5 ? -1 : 1)
+            });
+          }
+          if (mouse.x < 0) {
+            mouse.x = w / 2;
+            mouse.y = h / 2;
+          }
+        }
+
+        function draw() {
+          ctx.clearRect(0, 0, w, h);
+
+          for (var i = 0; i < particles.length; i++) {
+            var p = particles[i];
+
+            ctx.beginPath();
+            ctx.arc(p.x, p.y, 1.1, 0, Math.PI * 2);
+            ctx.fillStyle = DOT;
+            ctx.fill();
+
+            if (!small) {
+              var mdx = mouse.x - p.x;
+              var mdy = mouse.y - p.y;
+              var md = Math.sqrt(mdx * mdx + mdy * mdy);
+              if (md < MOUSE_DIST) {
+                ctx.strokeStyle =
+                  'rgba(' + MOUSE_LINK + ',' + 0.12 * (1 - md / MOUSE_DIST) + ')';
+                ctx.lineWidth = 0.6;
+                ctx.beginPath();
+                ctx.moveTo(p.x, p.y);
+                ctx.lineTo(mouse.x, mouse.y);
+                ctx.stroke();
+              }
+            }
+
+            for (var j = i + 1; j < particles.length; j++) {
+              var q = particles[j];
+              var dx = q.x - p.x;
+              var dy = q.y - p.y;
+              var d = Math.sqrt(dx * dx + dy * dy);
+              if (d < LINK_DIST) {
+                ctx.strokeStyle =
+                  'rgba(' + LINK + ',' + 0.22 * (1 - d / LINK_DIST) + ')';
+                ctx.lineWidth = 0.5;
+                ctx.beginPath();
+                ctx.moveTo(p.x, p.y);
+                ctx.lineTo(q.x, q.y);
+                ctx.stroke();
+              }
+            }
+          }
+
+          // Cursor spotlight: dim the network the further it is from the pointer
+          if (!small) {
+            var g = ctx.createRadialGradient(
+              mouse.x,
+              mouse.y,
+              70,
+              mouse.x,
+              mouse.y,
+              520
+            );
+            g.addColorStop(0, 'rgba(' + BG + ', 0.35)');
+            g.addColorStop(1, 'rgba(' + BG + ', 0.96)');
+            ctx.globalCompositeOperation = 'destination-out';
+            ctx.fillStyle = g;
+            ctx.fillRect(0, 0, w, h);
+            ctx.globalCompositeOperation = 'source-over';
+          }
+        }
+
+        function step() {
+          for (var i = 0; i < particles.length; i++) {
+            var p = particles[i];
+            p.x += p.vx;
+            p.y += p.vy;
+            if (p.x < 0 || p.x > w) p.vx = -p.vx;
+            if (p.y < 0 || p.y > h) p.vy = -p.vy;
+          }
+          draw();
+          raf = requestAnimationFrame(step);
+        }
+
+        function start() {
+          if (running) return;
+          running = true;
+          step();
+        }
+
+        function stop() {
+          running = false;
+          cancelAnimationFrame(raf);
+        }
+
+        var resizeTimer;
+        window.addEventListener('resize', function () {
+          clearTimeout(resizeTimer);
+          resizeTimer = setTimeout(build, 120);
+        });
+        // Hero height can shift once webfonts land.
+        window.addEventListener('load', function () {
+          setTimeout(build, 60);
+        });
+
+        window.addEventListener(
+          'mousemove',
+          function (e) {
+            var r = canvas.getBoundingClientRect();
+            mouse.x = e.clientX - r.left;
+            mouse.y = e.clientY - r.top;
+          },
+          { passive: true }
+        );
+
+        document.addEventListener('visibilitychange', function () {
+          if (document.hidden) stop();
+          else if (!reduce) start();
+        });
+
+        build();
+        if (reduce) {
+          draw();
+        } else {
+          start();
+        }
+      })();
+    </script>
+  </body>
+</html>
