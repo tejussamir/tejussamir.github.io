@@ -907,4 +907,9 @@ body:has(.project-page:target) .home-view {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }
+
+  /* Keep the caret at its normal blink rate; 0.01ms makes it flicker. */
+  .type-caret {
+    animation-duration: 1s !important;
+  }
 }

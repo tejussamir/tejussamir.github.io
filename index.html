@@ -422,22 +422,15 @@
         }
         if (!phrases || !phrases.length) return;
 
-        var reduce =
-          window.matchMedia &&
-          window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-        if (reduce) {
-          el.textContent = phrases[0];
-          return;
-        }
-
         var TYPE = 55;
         var ERASE = 30;
         var HOLD_FULL = 1800;
         var HOLD_EMPTY = 400;
 
+        // Start with the first phrase fully shown, then erase it.
         var phraseIndex = 0;
         var charIndex = phrases[0].length;
-        var deleting = false;
+        var deleting = true;
 
         function tick() {
           var current = phrases[phraseIndex];
