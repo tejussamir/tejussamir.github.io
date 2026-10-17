@@ -112,7 +112,9 @@
               <h3 class="project-title">Counterfeit Semiconductor Detection</h3>
               <p class="project-tagline">Counterfeit semiconductor detection using DAC linearity signatures (DNL/INL)</p>
               <div class="tag-row">
-                <span class="tag">Test &amp; Validation</span>
+                <span class="tag">Arduino</span>
+                <span class="tag">MATLAB</span>
+                <span class="tag">Semiconductor Testing</span>
                 <span class="tag">Statistical Modeling</span>
                 <span class="tag tag--award">1st place · Aggies Invent · $5,000</span>
               </div>
@@ -145,17 +147,42 @@
           <div>
             <p class="eyebrow">Extracurriculars</p>
 
+            <div class="activity activity--group">
+              <p class="activity-role">Ignitors Rocketry Team</p>
+              <ol class="activity-steps">
+                <li class="activity-step is-current">
+                  <div>
+                    <p class="activity-org">Flight Computer Team</p>
+                    <p class="activity-desc">
+                      Creating a custom flight computer for high-powered rocketry. Using Altium
+                      Designer and LTspice to design and simulate the avionics hardware.
+                    </p>
+                  </div>
+                  <span class="activity-period">Aug 2026 — Present</span>
+                </li>
+                <li class="activity-step">
+                  <div>
+                    <p class="activity-org">Electronics Mentee</p>
+                    <p class="activity-desc">
+                      Trained in rocket avionics and embedded systems: microcontrollers, sensors, and
+                      UART / I2C / SPI.
+                    </p>
+                  </div>
+                  <span class="activity-period">Dec 2025 — Aug 2026</span>
+                </li>
+              </ol>
+            </div>
+
             <div class="activity">
               <div>
-                <p class="activity-role">Ignitors Rocketry Team</p>
-                <p class="activity-org">Electronics Mentee</p>
+                <p class="activity-role">Texas Student Rocket Propulsion Laboratory</p>
+                <p class="activity-org">Avionics Team</p>
                 <p class="activity-desc">
-                  Training in rocket avionics and embedded systems: microcontrollers, sensors, and
-                  UART / I2C / SPI. Utilized Altium Designer for PCB design and OpenRocket for flight
-                  simulation, and contributed to the build and successful launch of a team rocket.
+                  Member of the avionics team, helping design and test the onboard electronics
+                  for the rocket's avionics bay.
                 </p>
               </div>
-              <span class="activity-period">2026</span>
+              <span class="activity-period">Sep 2026 — Present</span>
             </div>
 
             <div class="activity">
@@ -230,10 +257,6 @@
           <div class="meta-item">
             <p class="meta-label">Year</p>
             <p class="meta-value">2023 — 2025</p>
-          </div>
-          <div class="meta-item">
-            <p class="meta-label">Role</p>
-            <p class="meta-value">PCB design, analog front end, and firmware</p>
           </div>
           <div class="meta-item meta-item--stack">
             <p class="meta-label">Stack</p>
@@ -350,8 +373,7 @@
       <div class="detail-body wrap">
         <div>
           <p class="detail-summary">
-            A software approach to authenticating semiconductors by fingerprinting each chip from
-            its DAC linearity test data.
+            Counterfeit semiconductor detection using DNL/INL measurements from each chip's DAC.
           </p>
 
           <div class="detail-prose">
@@ -361,12 +383,16 @@
               hyper-specific manufacturing process, and are plotted during the semiconductor testing phase.
             </p>
             <p>
-              I applied statistical control charts to these linearity signatures, validating the
-              approach against known authentic and counterfeit samples to set reliable detection
-              limits.
+              To collect the data, an Arduino Uno steps an MCP4725 12-bit DAC through all 4,096
+              codes and measures each output with an ADS1115 16-bit ADC on the same I2C bus,
+              averaging 16 readings per code and streaming the results to MATLAB over serial.
             </p>
             <p>
-              The classifier distinguished genuine parts from counterfeits with 98.7% accuracy. I
+              The statistics were done in MATLAB, which includes computing DNL and INL from each
+              sweep and applying control charts to these linearity signatures.
+            </p>
+            <p>
+              The classifier distinguished genuine parts from counterfeits with 98.7% accuracy. We
               presented it to a panel of industry judges to win 1st place and the $5,000 grand
               prize at Aggies Invent: Hardware Resilience.
             </p>
@@ -376,20 +402,25 @@
 
         <aside>
           <div class="meta-item">
-            <p class="meta-label">Year</p>
-            <p class="meta-value">2026</p>
-          </div>
-          <div class="meta-item">
-            <p class="meta-label">Role</p>
-            <p class="meta-value">Statistical modeling, validation, and presentation</p>
+            <p class="meta-label">Date</p>
+            <p class="meta-value">April 2026</p>
           </div>
           <div class="meta-item meta-item--stack">
             <p class="meta-label">Stack</p>
             <div class="stack-row">
+              <span class="chip">Arduino</span>
+              <span class="chip">MATLAB</span>
+              <span class="chip">I2C</span>
               <span class="chip">Control charts</span>
               <span class="chip">DNL / INL analysis</span>
               <span class="chip">Semiconductor test data</span>
               <span class="chip">Statistical modeling</span>
+            </div>
+          </div>
+          <div class="meta-item meta-item--links">
+            <p class="meta-label">Links</p>
+            <div class="link-list">
+              <a href="https://lnkd.in/p/gWNVS3Yg" target="_blank" rel="noopener">LinkedIn post ↗</a>
             </div>
           </div>
         </aside>
