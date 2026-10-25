@@ -357,7 +357,7 @@ body:has(.project-page:target) .home-view {
   align-items: baseline;
   justify-content: space-between;
   gap: 1.5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .section-title {
@@ -370,7 +370,7 @@ body:has(.project-page:target) .home-view {
 }
 
 .section-head .eyebrow {
-  font-size: 0.68rem;
+  font-size: 0.6875rem;
   margin-bottom: 0.6rem;
 }
 
@@ -420,7 +420,7 @@ body:has(.project-page:target) .home-view {
 
 .tag {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.6875rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--color-muted);
@@ -453,7 +453,7 @@ body:has(.project-page:target) .home-view {
 
 .btn-outline {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.6875rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--color-accent);
@@ -493,7 +493,7 @@ body:has(.project-page:target) .home-view {
 }
 
 /* --------------------------------------------------------------------------
-   7. Extracurriculars + contact
+   7. Experience + contact
    -------------------------------------------------------------------------- */
 
 .contact {
@@ -510,8 +510,7 @@ body:has(.project-page:target) .home-view {
   align-items: center;
 }
 
-.contact .eyebrow {
-  font-size: 0.68rem;
+.contact .section-title {
   margin-bottom: 2rem;
 }
 
@@ -535,8 +534,8 @@ body:has(.project-page:target) .home-view {
 
 .activity-org {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
-  letter-spacing: 0.06em;
+  font-size: 0.6875rem;
+  letter-spacing: 0.05em;
   color: var(--color-accent);
   margin: 0 0 0.4rem;
 }
@@ -551,8 +550,8 @@ body:has(.project-page:target) .home-view {
 
 .activity-period {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
-  letter-spacing: 0.06em;
+  font-size: 0.6875rem;
+  letter-spacing: 0.05em;
   color: var(--color-muted);
   white-space: nowrap;
   padding-top: 0.15rem;
@@ -632,7 +631,7 @@ body:has(.project-page:target) .home-view {
 
 .contact-label {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.6875rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--color-muted);
@@ -662,7 +661,7 @@ body:has(.project-page:target) .home-view {
 
 .site-footer p {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.6875rem;
   letter-spacing: 0.08em;
   color: var(--color-muted);
   margin: 0;
@@ -690,7 +689,7 @@ body:has(.project-page:target) .home-view {
 
 .back-link {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.6875rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--color-muted);
@@ -753,7 +752,7 @@ body:has(.project-page:target) .home-view {
 
 .detail-figure figcaption {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.6875rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--color-muted);
@@ -781,7 +780,7 @@ body:has(.project-page:target) .home-view {
 
 .meta-label {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.6875rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--color-muted);
@@ -807,8 +806,8 @@ body:has(.project-page:target) .home-view {
 
 .chip {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
-  letter-spacing: 0.06em;
+  font-size: 0.6875rem;
+  letter-spacing: 0.05em;
   color: var(--color-text);
   background: var(--color-surface-2);
   border: 1px solid var(--color-border);
@@ -879,7 +878,7 @@ body:has(.project-page:target) .home-view {
 
 .nav-dir {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.6875rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--color-muted);
